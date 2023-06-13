@@ -2,12 +2,10 @@
 var PLAY = 1;
 var END = 0;
 var WIN = 2;
+
 var gameState = PLAY;
-
 var obstaclesGroup, obstacle1;
-
 var score=0;
-
 var gameOver, restart;
 
 function preload(){
